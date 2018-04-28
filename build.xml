@@ -13,7 +13,7 @@
 
   <taskdef name="chipkitversion" classname="ant.dep.ChipkitTagVersion" classpath="antlib/ant-chipkittagversion.jar" />
 
-  <available file=".git" property="git.present" type="dir"/>
+  <available file=".git" property="git.present"/>
 
   <property file="upload.properties"/>
   <property file="version.properties"/>
